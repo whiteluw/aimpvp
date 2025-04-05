@@ -1,0 +1,14 @@
+name: AimPVP
+version: '${project.version}'
+main: com.whitelu.aimpvp.AimPVP
+api-version: '1.20'
+author: whitelu
+description: A new PVP mode based on hit counts instead of damage
+commands:
+  aimpvp:
+    description: Toggle AimPVP mode
+    usage: /aimpvp
+permissions:
+  aimpvp.highcdnotice:
+    description: Allows player to receive high attack speed notifications
+    default: op 
